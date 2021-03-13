@@ -63,8 +63,8 @@ __FBSDID("$FreeBSD$");
 #include <dev/iicbus/iicbus.h>
 #include <dev/iicbus/iiconf.h>
 
-#include <dev/ichiic/ig4_reg.h>
-#include <dev/ichiic/ig4_var.h>
+#include "ig4_reg.h"
+#include "ig4_var.h"
 
 #define USE_DEV_IDENTIFY 1
 
